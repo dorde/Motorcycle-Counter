@@ -1,0 +1,76 @@
+body {
+    background-image: url("bike.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align:center;
+    height: 100vh;
+}
+
+.container {
+    background:rgb(115, 102, 102)
+        max-width: 80%;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+}
+
+div,
+span {
+    display: inline-block;
+}
+
+.counters {
+    margin: 10px;
+        border: 2px solid rgb(115, 102, 102);
+        border-radius: 10px;
+        min-width: 80%;
+}
+
+.buttons {
+    margin: 10px;
+        border: 2px solid rgb(115, 102, 102);
+        border-radius: 10px;
+        min-width: 80%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#scooter-btn {
+    background: rgb(200, 150, 110);
+}
+#ADV-btn {
+    background-color: rgb(200, 160, 100);
+}
+#sport-btn {
+    background: rgb(200, 170, 90);
+}
+#chopper-btn {
+    background: rgb(200, 180, 80);
+}
+
+#reset-btn {
+    background: rgb(226, 67, 4);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+}
+
